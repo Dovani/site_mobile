@@ -79,6 +79,7 @@ main{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 5px;
+    text-align: center;
     
 }
 article > h2{
@@ -98,28 +99,27 @@ article > p{
     font-family: var(--fonte1);
 }
 
+figure{
+    
+
+}
+
 figure > .img01{
     width: 400px;
     height: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    padding-left: 320px;
+
 }
 
 figure > .img02{
     width: 400px;
     height: 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: relative;
-    padding-left: 320px;
+    
 }
 
 figure > figcaption{
     font-family: var(--fonte1);
     font-size: 10px;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 2px;
     margin-bottom: 20px;
 }
